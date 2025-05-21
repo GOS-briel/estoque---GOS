@@ -64,4 +64,7 @@ public class ProdutoEntity {
         this.qtd = qtd;
     }
 
+    public void setQuantidade(int i) {
+
+    }
 }

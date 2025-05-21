@@ -15,8 +15,8 @@ public class ProdutoService {
 
     ProdutoRepository repository;
 
-    public ProdutoService(ProdutoRepository repository) {
-        this.repository = repository;
+    public ProdutoService(ProdutoServiceTest repository) {
+        this.repository = this.repository;
     }
 
     public void cadastrarProduto(Produto produto){
